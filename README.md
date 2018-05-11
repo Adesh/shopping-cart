@@ -1,3 +1,7 @@
+# Live Hosted Project on Firebase
+
+https://oshop-5ceb7.firebaseapp.com
+
 # Oshop
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
@@ -12,7 +16,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+ng build --prod --aot=false
+
+## Deploy to firebase
+
+firebase deploy
 
 ## Running unit tests
 
